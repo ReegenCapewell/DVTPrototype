@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/reege/AppData/Roaming/**)",
+      "Bash(cmd.exe /c \"where node 2>&1\")",
+      "Bash(cmd.exe /c \"node --version && npm --version && npx --version\" 2>&1)",
+      "Bash(powershell.exe -Command \"node --version; npm --version\" 2>&1)"
+    ]
+  }
+}
