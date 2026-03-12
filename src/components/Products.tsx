@@ -59,17 +59,17 @@ const products = [
 
 export default function Products() {
   return (
-    <section id="products" className="py-20 bg-stone-50">
+    <section id="products" className="py-20 bg-brand-cream">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Heading */}
         <div className="text-center mb-12">
-          <span className="text-amber-700 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-brand-green font-semibold text-sm uppercase tracking-widest">
             Our Range
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mt-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green mt-2">
             Products &amp; Materials
           </h2>
-          <p className="text-stone-600 mt-4 max-w-xl mx-auto">
+          <p className="text-stone-700 mt-4 max-w-xl mx-auto">
             From structural graded timber to decorative fencing solutions, we
             stock everything you need for your next project.
           </p>
@@ -84,13 +84,13 @@ export default function Products() {
 
         {/* CTA */}
         <div className="mt-12 text-center">
-          <p className="text-stone-600 mb-4">
+          <p className="text-stone-700 mb-4">
             Can&apos;t see what you&apos;re looking for? We source and stock a
             wide variety of timber and fencing products.
           </p>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 bg-amber-700 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-md transition-colors"
+            className="inline-flex items-center gap-2 bg-brand-green hover:bg-brand-green/80 text-white font-semibold px-6 py-3 rounded-md transition-colors"
           >
             Contact Us for Custom Orders
           </a>

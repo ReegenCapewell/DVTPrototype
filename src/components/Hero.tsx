@@ -12,14 +12,14 @@ export default function Hero() {
           alt="Timber yard background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-stone-900/70" />
+        <div className="absolute inset-0 bg-brand-green/70" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-20">
         {/* Opening hours badge */}
-        <div className="inline-flex items-center gap-2 bg-emerald-800/90 text-white text-sm font-medium px-4 py-2 rounded-full mb-6">
-          <Clock className="h-4 w-4 text-emerald-300" />
+        <div className="inline-flex items-center gap-2 bg-brand-green/90 text-white text-sm font-medium px-4 py-2 rounded-full mb-6">
+          <Clock className="h-4 w-4 text-brand-cream" />
           Open Mon–Fri 8am–5pm
         </div>
 
@@ -27,7 +27,7 @@ export default function Hero() {
           Your Local Timber &amp; Fencing Specialist
         </h1>
 
-        <p className="text-stone-300 text-lg md:text-xl max-w-2xl mb-8">
+        <p className="text-brand-cream text-lg md:text-xl max-w-2xl mb-8">
           Supplying trade professionals and DIY enthusiasts across the region
           with quality timber, fencing panels, and structural materials. Trusted
           since 2008.
@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="#contact"
-            className="inline-flex items-center justify-center gap-2 bg-amber-700 hover:bg-amber-600 text-white font-semibold text-base px-6 py-3 rounded-md transition-colors"
+            className="inline-flex items-center justify-center gap-2 bg-brand-salmon hover:bg-brand-salmon/80 text-white font-semibold text-base px-6 py-3 rounded-md transition-colors"
           >
             Get a Quote
             <ChevronRight className="h-5 w-5" />
@@ -51,17 +51,17 @@ export default function Hero() {
         </div>
 
         {/* Trust Indicators */}
-        <div className="mt-12 flex flex-wrap gap-6 text-stone-300 text-sm">
+        <div className="mt-12 flex flex-wrap gap-6 text-brand-cream text-sm">
           <span className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber-500 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-brand-salmon inline-block" />
             15+ Years in Business
           </span>
           <span className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber-500 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-brand-salmon inline-block" />
             Trade &amp; Retail Welcome
           </span>
           <span className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber-500 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-brand-salmon inline-block" />
             Local Delivery Available
           </span>
         </div>
