@@ -1,13 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState } from "react";
 import { Phone, Mail, MapPin, CheckCircle } from "lucide-react";
-
-const GOOGLE_MAPS_URL =
-  "https://www.google.com/maps/search/Dove+Valley+Timber+Fencing+Supplies";
-const MAP_IMAGE_URL =
-  "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -72,28 +66,8 @@ export default function Contact() {
           </span>
         </div>
 
-        {/* Split layout */}
-        <div className="grid md:grid-cols-2 gap-10 items-start">
-          {/* Map */}
-          <a
-            href={GOOGLE_MAPS_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-xl overflow-hidden shadow-md border border-stone-200 h-64 md:h-full min-h-[300px] hover:opacity-90 transition-opacity"
-          >
-            <img
-              src={MAP_IMAGE_URL}
-              alt="Map location of Dove Valley Timber yard"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 flex items-end p-4 bg-gradient-to-t from-stone-900/60 to-transparent rounded-xl pointer-events-none">
-              <span className="text-white text-sm font-medium flex items-center gap-1">
-                <MapPin className="h-4 w-4" /> View on Google Maps
-              </span>
-            </div>
-          </a>
-
-          {/* Form */}
+        {/* Form */}
+        <div className="max-w-2xl mx-auto w-full">
           <div>
             {submitted ? (
               <div className="flex flex-col items-center justify-center text-center py-16 gap-4">
