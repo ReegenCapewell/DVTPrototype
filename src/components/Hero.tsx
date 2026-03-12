@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="#contact"
-            className="inline-flex items-center justify-center gap-2 bg-brand-salmon hover:bg-brand-salmon/80 text-white font-semibold text-base px-6 py-3 rounded-md transition-colors"
+            className="inline-flex items-center justify-center gap-2 bg-amber-700 hover:bg-amber-600 text-white font-semibold text-base px-6 py-3 rounded-md transition-colors"
           >
             Get a Quote
             <ChevronRight className="h-5 w-5" />
