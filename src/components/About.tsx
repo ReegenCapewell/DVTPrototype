@@ -37,7 +37,7 @@ const values = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-brand-salmon">
+    <section id="about" className="py-20 bg-brand-cream">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Heading */}
         <div className="text-center mb-14">
@@ -47,7 +47,7 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-brand-green mt-2">
             A Family Business Built on Timber
           </h2>
-          <p className="text-stone-800 mt-4 max-w-2xl mx-auto text-base md:text-lg">
+          <p className="text-stone-700 mt-4 max-w-2xl mx-auto text-base md:text-lg">
             Founded in 2008, Dove Valley Timber and Fencing Supplies Ltd has
             grown from a small local yard into one of the region&apos;s most
             trusted independent timber merchants. We combine decades of hands-on
@@ -61,12 +61,12 @@ export default function About() {
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="text-center p-6 bg-brand-cream/80 rounded-lg border border-brand-cream"
+              className="text-center p-6 bg-brand-salmon rounded-lg border border-brand-salmon"
             >
-              <div className="text-3xl md:text-4xl font-bold text-brand-green">
+              <div className="text-3xl md:text-4xl font-bold text-black">
                 {stat.value}
               </div>
-              <div className="text-stone-700 text-sm mt-1">{stat.label}</div>
+              <div className="text-black text-sm mt-1">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -90,7 +90,7 @@ export default function About() {
                   <v.icon className="h-5 w-5 text-brand-green shrink-0" />
                   <h3 className="font-bold text-brand-green">{v.title}</h3>
                 </div>
-                <p className="text-stone-800 text-sm leading-relaxed">
+                <p className="text-stone-700 text-sm leading-relaxed">
                   {v.description}
                 </p>
               </div>

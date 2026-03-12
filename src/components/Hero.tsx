@@ -12,7 +12,7 @@ export default function Hero() {
           alt="Timber yard background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-brand-green/70" />
+        <div className="absolute inset-0 bg-stone-900/60" />
       </div>
 
       {/* Content */}
