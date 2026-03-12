@@ -31,19 +31,19 @@ const deliveryFeatures = [
 
 export default function DeliveryInfo() {
   return (
-    <section id="delivery" className="py-20 bg-emerald-800">
+    <section id="delivery" className="py-20 bg-stone-900">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Top Banner */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-14">
           <div className="flex items-center gap-4">
-            <div className="bg-emerald-700 p-4 rounded-full shrink-0">
-              <Truck className="h-8 w-8 text-white" />
+            <div className="bg-stone-800 p-4 rounded-full shrink-0">
+              <Truck className="h-8 w-8 text-amber-500" />
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white">
                 Local Delivery Available
               </h2>
-              <p className="text-emerald-300 mt-1 text-base md:text-lg">
+              <p className="text-stone-400 mt-1 text-base md:text-lg">
                 We&apos;ll bring your order straight to site — saving you time
                 and hassle.
               </p>
@@ -62,13 +62,13 @@ export default function DeliveryInfo() {
           {deliveryFeatures.map((feature) => (
             <div
               key={feature.title}
-              className="bg-emerald-700/50 border border-emerald-600 rounded-xl p-6"
+              className="bg-stone-800/50 border border-stone-700 rounded-xl p-6"
             >
-              <feature.icon className="h-6 w-6 text-emerald-300 mb-3" />
+              <feature.icon className="h-6 w-6 text-amber-500 mb-3" />
               <h3 className="font-bold text-white text-base mb-2">
                 {feature.title}
               </h3>
-              <p className="text-emerald-200 text-sm leading-relaxed">
+              <p className="text-stone-400 text-sm leading-relaxed">
                 {feature.description}
               </p>
             </div>
@@ -76,8 +76,8 @@ export default function DeliveryInfo() {
         </div>
 
         {/* Phase 2 Placeholder Banner */}
-        <div className="mt-10 border border-dashed border-emerald-500 rounded-xl p-6 text-center">
-          <p className="text-emerald-400 text-sm font-mono">
+        <div className="mt-10 border border-dashed border-stone-600 rounded-xl p-6 text-center">
+          <p className="text-stone-500 text-sm font-mono">
             {/* Phase 2: Insert dynamic Postcode Delivery Calculator here */}
             🚛 Phase 2: A live postcode delivery checker will be integrated
             here.
